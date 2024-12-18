@@ -1,0 +1,70 @@
+{
+    "tasks": {
+      "task1": {
+        "id": "task1",
+        "title": "Complete Homework",
+        "description": "Finish the React Native homework for the Mobile App Development course.",
+        "status": "pending",
+        "priority": "high",
+        "dueDate": "2024-12-20",
+        "assignedTo": "Ghulam Mujtaba",
+        "createdAt": "2024-12-18T10:00:00Z",
+        "updatedAt": "2024-12-18T10:00:00Z"
+      },
+      "task2": {
+        "id": "task2",
+        "title": "Prepare for Quiz",
+        "description": "Study for the upcoming quiz on Operating Systems.",
+        "status": "in-progress",
+        "priority": "medium",
+        "dueDate": "2024-12-19",
+        "assignedTo": "Ghulam Mujtaba",
+        "createdAt": "2024-12-18T11:00:00Z",
+        "updatedAt": "2024-12-18T11:30:00Z"
+      },
+      "task3": {
+        "id": "task3",
+        "title": "Meeting with Team",
+        "description": "Discuss project progress and assign tasks for the next week.",
+        "status": "completed",
+        "priority": "low",
+        "dueDate": "2024-12-17",
+        "assignedTo": "Team",
+        "createdAt": "2024-12-15T14:00:00Z",
+        "updatedAt": "2024-12-17T15:00:00Z"
+      }
+    },
+    "users": {
+      "user1": {
+        "id": "user1",
+        "name": "Ghulam Mujtaba",
+        "email": "ghulam.mujtaba@example.com",
+        "role": "admin",
+        "createdAt": "2024-10-01T08:00:00Z"
+      },
+      "user2": {
+        "id": "user2",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "role": "user",
+        "createdAt": "2024-11-10T09:00:00Z"
+      }
+    },
+    "activityLogs": {
+      "log1": {
+        "id": "log1",
+        "userId": "user1",
+        "action": "Created Task",
+        "taskId": "task1",
+        "timestamp": "2024-12-18T10:00:00Z"
+      },
+      "log2": {
+        "id": "log2",
+        "userId": "user2",
+        "action": "Updated Task",
+        "taskId": "task2",
+        "timestamp": "2024-12-18T11:30:00Z"
+      }
+    }
+  }
+  
